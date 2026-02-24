@@ -1,0 +1,28 @@
+@import 'tailwindcss';
+
+@theme {
+
+    --color-bg: #F4F4F5; /* genel arka plan */
+    --color-bg-card: #FAFAFA; /* kart, tablo, kutu arka plan */
+    --color-bg-sidebar: #09090B; /* sidebar arka plan */
+
+    --color-border: #E4E4E7; /* Kartların , inputların çerçevesi, ayırıcı çizgiler */
+    --color-button: #18181B; /* buton arka plan */
+    --color-button-hover: #27272A; /* buton hover arka plan */
+    --color-button-yellow: #F59E0B;
+
+    --color-text-primary: #18181B; /* ana metin rengi */
+    --color-text-secondary: #71717A; /* ikincil metin rengi */
+    --color-text-inverse: #FAFAFA;  /* siyah zemin üzerine yazı için */
+    --color-text-muted: #A1A1AA; /* placeholder, pasif ikon için */
+
+    --color-positive: #047857; /* Ödendi Tamamlandı Yazıları */
+    --color-positive-bg: #ECFDF5; /* pozitif etiketlerin arka planı */
+    --color-negative: #BE123C; /* Gecikmiş, ödenmedi yazıları */
+    --color-negative-bg: #FFF1F2; /* negatif etiketlerin arka planı */
+    --color-warning: #B45309; /* işlemde onay bekliyor yazıları */
+    --color-warning-bg: #FFFBEB; /* uyarı etiketlerinin arka planı */
+
+    --font-heading: "Plus Jakarta Sans", sans-serif;
+    --font-text: "Inter", sans-serif;
+}
